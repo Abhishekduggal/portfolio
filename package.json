@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Abhishek Duggal",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
