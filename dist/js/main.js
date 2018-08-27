@@ -18,7 +18,7 @@ function toggleMenu() {
 
     showMenu = true;
   } else {
-    menuBtn.classList.add("closed");
+    menuBtn.classList.remove("close");
     menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
