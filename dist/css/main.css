@@ -251,6 +251,7 @@ main {
     align-items: center;
     text-align: center; }
     main .lg-heading {
+      font-size: 4rem;
       line-height: 1;
       margin-bottom: 1rem; }
   ul.menu-nav,
@@ -270,8 +271,12 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../images/duggal-grey.png");
-      width: 150px;
-      height: 150px; }
+      width: 250px;
+      height: 250px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      border: solid 3px #eece1e; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }

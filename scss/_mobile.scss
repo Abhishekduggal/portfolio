@@ -16,6 +16,7 @@
     text-align: center;
 
     .lg-heading {
+      font-size: 4rem;
       line-height: 1;
       margin-bottom: 1rem;
     }
@@ -43,8 +44,12 @@
 
     .portrait {
       background: url("../images/duggal-grey.png");
-      width: 150px;
-      height: 150px;
+      width: 250px;
+      height: 250px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      border: solid 3px $secondary-color;
     }
   }
 
